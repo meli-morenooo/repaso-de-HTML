@@ -1,0 +1,108 @@
+.tit{
+    color:rgb(165, 31, 165);
+}
+.subt{
+    color:aqua;
+    background-color:black;
+}
+.box{
+    background-color: #8ecae6;
+}
+.b4{
+    color: #fb8500;
+    text-align: center;
+}
+.box4{
+    color: #ffb703;
+    background-color: #023047;
+    padding: 15px;
+    border: 10px solid #219ebc;
+    /* Bordes iguales 
+    margin: 50px; */
+
+    /* Especificación de medidas
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px; */
+
+    /* Simplificación de medidas en una linea 
+    margin: 40px 10px 20px 10px;
+    
+    Si los lados van a medir lo mismo se pone uno solo
+    margin: 40px 10px 20px;
+
+    Si los lados van a medir igual se simplifica así
+    margin: 40px 10px; */
+
+    /* Para centrar */
+    /* margin: auto */
+
+    margin: auto 50px;
+
+    /* Para alinear el texto */
+    text-align: center;
+}
+
+
+
+
+
+body{
+    background-color:rgb(231, 135, 167);
+    background-color: rgb(246,126,125);
+    background-color: rgb(184,94,94);
+    background-color: rgb(246, 189, 231);
+    background-color: rgb(255,255,255);
+    background-color: rgb(0,0,0);
+    background-color: rgb(237,28,36);
+    background-color: rgb(0,136,203);
+    background-color: rgb(255,203,5);
+    background-color: rgb(114,114,114);
+    background-color: rgb(176,176,176);
+    background-color: rgb(113,119,130);
+    background-color: rgb(136,147,171);
+    background-color: rgb(89,102,129);
+    background-color: rgb(33,51,87);
+    background-color: rgb(194,201,243);
+    background-color: rgb(161,171,232);
+    background-color: rgb(85,105,220);
+    background-color: rgb(123,63,63);
+    background-color: rgb(57,70,147);
+    background-color: rgb(28,35,73);
+    background-color: rgb(186,250,238);
+    background-color: rgb(150,246,227);
+    background-color: rgb(54,241,205);
+    background-color: rgb(36,161,137);
+    background-color: rgb(18,80,68);
+    background-color: rgb(62,32,31);
+    background-color: rgb(255,220,203);
+    background-color: rgb(255,185,151);
+    background-color: rgb(191,139,113);
+    background-color: rgb(128,93,76);
+    background-color: rgb(64,46,38);
+    background-color: rgb(251,189,189);
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    display: block;
+    margin: 8px;
+}
+/* 
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: baseline;
+background: transparent; */
+
+/* --font_0: normal normal bold 88px/1.4em playfairdisplay-bold,'playfair display',serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: italic normal normal 32px/1.4em 'playfair display',serif;
+    --font_3: normal normal normal 24px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+    --font_4: italic normal normal 21px/1.4em 'playfair display',serif;
+    --font_5: normal normal normal 16px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+    --font_6: normal normal normal 16px/1.4em futura-lt-w01-book,futura-lt-w05-book,sans-serif;
+    --font_7: normal normal normal 21px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+    --font_8: normal normal normal 16px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+    --font_9: italic normal normal 14px/1.4em 'playfair display',serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif; */

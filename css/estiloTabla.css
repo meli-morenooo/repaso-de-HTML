@@ -1,0 +1,44 @@
+/* ocupar todo el espacio de la pagina */
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    /*Para quitar el borde espaciado y que sea una linea simple*/
+    border-collapse: collapse;
+    /* para poner el borde más espaciado */
+    /* border-spacing: 5px; */
+    padding: 5px;
+}
+
+caption{
+    color: #e63946;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    /* ancho de la linea */
+    line-height: 70px;
+}
+
+th{
+    color: #f1faee;
+    background-color: #1d3557;
+}
+
+/* renglones pares */
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+
+/* renglones impares */
+tr:nth-child(odd){
+    background-color: #a8dadc; 
+}
+
+td{
+    text-align: center;
+}
+
+/* th{
+    text-align: left;
+} */

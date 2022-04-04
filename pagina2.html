@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2 HTML</title>
+</head>
+<body>
+    <h1>Página 2 HTML</h1>
+    <h2><u>Formato a Texto en HTML</u></h2>
+    <p><b>Primer párrafo</b></p> <!--texto en negrita-->
+    <p><strong>Segundo párrafo</strong></p> <!--indica un texto importante-->
+    <p><i>Tercer párrafo</i></p> <!--texto en italica o cursiva-->
+    <p><em>Cuarto párrafo</em></p> <!--es para enfatizar un texto-->
+    <p><small>Quinto párrafo</small></p> <!--muestra el texto pequeño-->
+    <p><mark>Sexto párrafo</mark></p> <!--marcar texto-->
+    <p><del>Septimo párrafo</del></p> <!--indica texto eliminado-->
+    <p><ins>Octavo párrafo</ins></p> <!--indica texto insertado-->
+    <p>Noveno <sub>p</sub>árrafo. Otro ejemplo: H<sub>2</sub>O</p> <!--subindice-->
+    <p>Décimo <sup>p</sup>árrafo. Otro ejemplo: 4<sup>2</sup></p> <!--superindice-->
+    <br/>
+    <p><mark>"code"</mark> Nos sirve en el caso que se quiera mostrar algún código de programación</p>
+    <p><code>Este es mi código</code></p> <!--dar formato de código-->
+    <pre style="color:red"><code>    
+import random
+
+def generar_lista_diccionarios():
+    lista = []
+    diccionario = {}
+    
+    for x in range(1,11):
+        edad = random.randint(1, 100)
+        diccionario[x] = edad
+    
+    lista.append(diccionario)
+    return lista
+
+def menor_mayor_edad(funcion):
+    lista_ordenada = []
+    
+    for d in funcion:
+        joven = min(d, key=d.get)
+        viejo = max(d, key=d.get)
+        dicc = sorted(d.items())
+            
+    print(joven)
+    print(viejo)
+    print(dicc)
+    
+    
+if __name__ == '__main__':
+    # print(generar_lista_diccionarios())
+    menor_mayor_edad(generar_lista_diccionarios())        
+    </code></pre>
+
+    <h2><u>Referencias de Caracteres en HTML</u></h2>
+    <p>Se usan cuando se quiere visualizar un símbolo que a veces tiene problemas por error de sintáxis. Por ejemplo:</p>
+    <p>&excl; Símbolo de exclamación</p>
+    <p>&#x00021; Símbolo de exclamación hexadecimal</p>
+    <p>&#33; Símbolo de exclamación decimal</p>
+    <p>&lt; Símbolo menor que</p>
+    <p>&gt; Símbolo mayor que</p>
+    <p>&commat; Símbolo arroba</p>
+    <p>&aacute;rbol &Aacute;rbol &oacute; &Oacute;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;texto con espacio</p>
+    <a href="https://dev.w3.org/html5/html-author/charref" target="_blank">Referencias de Caracteres</a>
+    <a href="/index.html">Ir Inicio</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrame en HTML</title>
+    <link rel="stylesheet" href="/css/estiloIframe.css"/>
+</head>
+<body>
+    <h1 class="titulo">Uso de iFrame en HTML</h1>
+    <!-- para que se cargue la pagina en el marco de iframe, colocamos un nombre con el atributo name -->
+    <iframe src="/pagina6/texto.html" name="marco1" class="marco"></iframe>
+    <div class="centrar">
+        <!-- agregamos el ancla dentro de un div para centrar y dar un mejor manejo de estilo y visual -->
+
+        <!-- agregamos la propiedad de target donde indicamos sobre que frame se va a cargar la pagina  -->
+        <a href="http://globalmentoring.com.mx" target="marco1" class="boton">Cargar Sitio Global Mentoring</a>
+    </div>
+</body>
+</html>

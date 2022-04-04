@@ -1,0 +1,32 @@
+ol{
+    /* para no mostrar ningun icono de elemento de lista  */
+    list-style: none;
+    /* especificamos que vamos a usar la propiedad de contador */
+    counter-reset: contador;
+}
+
+/* especificamos que vamos a usar la propiedad de contador en donde 
+indicamos que va a incrementar por cada valor en uno */
+ol li{
+    counter-increment: contador;
+}
+
+/* para manejar un contador despues del texto agregado */
+
+
+/* indicamos <ol> para decir que vamos a trabajar con la 
+lista ordenada y <li> para seleccionar los elementos de la lista 
+Usamos el selector ::before (agrega un texto antes del elemento)*/
+ol li::before{
+    /* con la propiedad content podemos agregar algo */
+    /* agregamos la funcion counter() que nos va a servir para especificar el nombre del contador.
+    Este elemento nos va a servir para definir el contador que vamos a utilizar*/
+    content: 'Curso ' counter(contador) ') ';
+    color: #ff6f00;
+}
+/* Usamos el selector ::after (agrega un texto después del elemento) */
+ol li::after{
+    content: '.';
+}
+
+

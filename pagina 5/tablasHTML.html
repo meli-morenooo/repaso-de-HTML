@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+    <link rel="stylesheet" href="/css/estiloTabla.css">
+    <!-- Fuente Trocchi de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--se declara una tabla-->
+    <table>
+        <!-- titulo de la tabla -->
+        <caption>Listado de Personas</caption>
+        <!--se define un renglón-->
+        <tr>
+            <!--se agrega una cabecero-->
+            <!-- si deseo que una cabecera me ocupe más de una celda utilizo el atributo colspan -->
+            <!-- <th colspan="2">Nombre</th> -->
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+        </tr>
+        <!--se define un nuevo renglón-->
+        <tr>
+            <!--se agrega una celda o un dato-->
+            <td>Juan</td>
+            <td>Perez</td>
+            <td>jperez@mail.com</td>
+            <!-- se puede unificar más de un renglón con el atributo rowspan -->
+            <!-- <td rowspan="2">jperez@mail.com</td> -->
+        </tr>
+        <tr>
+            <!--se agrega una celda o un dato-->
+            <td>Maria</td>
+            <td>Lara</td>
+            <td>mlara@mail.com</td>
+        </tr>
+        <tr>
+            <!--se agrega una celda o un dato-->
+            <td>Eluney</td>
+            <td>Moreno</td>
+            <td>emoreno@mail.com</td>
+        </tr>
+        <tr>
+            <!--se agrega una celda o un dato-->
+            <td>Melisa</td>
+            <td>Moreno</td>
+            <td>mmoreno@mail.com</td>
+        </tr>
+    </table>
+    <br/>
+    <a href="/pagina5.html">Volver a página anterior</a>
+</body>
+</html>
